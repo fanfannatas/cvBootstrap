@@ -1,0 +1,172 @@
+body{
+    background-color: black;
+}
+h1{
+    color: blueviolet;
+    text-align: right;
+    padding-right: 150px;
+}
+h2{
+    width: 25%;
+    height: 25%;
+    text-decoration: underline;
+    padding-left: 100px;  
+    color: blueviolet;
+}
+h3{
+    text-align:right;
+    color: blueviolet;
+}
+.navbar{
+
+    background: linear-gradient(217deg,aqua, rgba(222, 222, 222, 0) 70.71%),
+            linear-gradient(127deg, lightblue, rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    padding: 30px;
+    text-align: center;
+    padding-right: 55px;
+    color: blueviolet;
+}
+.rounded{
+    border-radius: 50%;
+    border: solid black 8px;
+
+}
+#navbarimg{
+    width:100%;
+}
+.article{
+    background-color: transparent;
+    padding:15px;
+    align-content: space-around;
+    margin-top: -400px;
+    color: blueviolet;
+}
+.article img{
+    max-width: 20%;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: rgb(0, 0, 0) double 10px;
+    text-align: center;
+}
+.articleR{
+    text-align: right;
+    color: blueviolet ;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: solid black 10px;
+}
+.articleG{
+    text-align: left;
+    color: blueviolet ;
+    width: 25%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.paraIntro{
+    text-align: center;
+}
+
+.selection{
+    text-align: right;
+    margin-top: -450px;
+
+}
+
+.fondEcran__container {
+    position: relative;
+}
+
+.fondEcran__video {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 50px);
+    object-fit: cover;
+    z-index: -1;
+    bottom: 0;
+}
+
+.fondEcran__list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+footer{
+    color: aliceblue;
+    border-radius: 50%;
+    border: 10px solid rgb(0, 0, 0);
+    display: flex;
+    position: fixed;
+    padding-top:30px;
+    margin-left: 10px;
+    bottom: 30px;
+    z-index: 2;
+    height:150px;
+    width: 400px;
+    background: linear-gradient(217deg,rgb(102, 198, 249), rgba(222, 222, 222, 0) 70.71%),
+    linear-gradient(127deg, rgb(110, 19, 221), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(6, 218, 241, 0.8), rgba(0,0,255,0) 70.71%);
+}
+.couleur{
+    text-align: center;
+}
+.fanfan{
+    color: blue;
+}
+.fanfanp{
+    color: rgb(229, 28, 129);
+    padding-left: 150px;
+}
+.imageR{
+    margin-top: -100px;
+    border: dotted black 6px;
+    border-radius: 50%;
+    width:150px;
+    height:100px;
+}
+.roundedTete{
+    width: 50px;
+    height: 50px;
+    border: rgb(255, 255, 255) double 4px;
+    background-color: lightcoral;
+    border-radius: 50%;
+}
+.btn-black{
+    color:white;
+}
+.container{
+    background-image: none;
+    display: flex;
+    flex-direction: row;
+}
+.front{
+    color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+}
+.frontop{
+    background: transparent;
+    border: solid red 6px;
+    width: 50%;
+    height: 25%;
+    border-radius: 20%;
+}
+.containerAcc{
+    color:blueviolet;
+    margin-top: -25px;
+    margin-bottom: 25px;
+}
+.tampon{
+    background-color: red;
+    border: solid rgb(20, 173, 238) 5px;
+}
+.creation{
+    background-color:transparent;
+}
+.imgtet{
+    background-color: aliceblue;
+    width: 200px;
+    height:200px;
+    float: right;
+    border-radius: 50%;
+    border: slateblue solid 2px;
+}
