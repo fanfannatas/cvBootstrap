@@ -194,3 +194,16 @@ footer{
     padding-left: 50px;
     margin-bottom: 10px;
 }
+.portrait{
+border: double yellow 16px;
+width: 150px;
+height: 200px;
+border-radius: 20%;
+}
+section{
+    position:relative;
+    display: flex;
+    float: left;
+    background-color: black;
+
+}
